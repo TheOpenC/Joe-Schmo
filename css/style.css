@@ -7,6 +7,26 @@
   box-sizing: border-box;
 }
 
+
+/******************************************
+/* Base Styles
+/*******************************************/
+:root{
+  font-size: 18px;
+}
+
+h1{
+  font-family: Helvetica, sans-serif;
+  font-size: 7rem;
+  font-weight: 900;
+  letter-spacing: -.35rem;
+  
+}
+
+a{
+  text-decoration: none;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -16,7 +36,16 @@ img{
   width: 25%;
 }
 
-
 /******************************************
-/* ADDITIONAL STYLES
+/* Containers
 /*******************************************/
+
+section {
+  outline: 2px dotted black;
+  height: 100px;
+}
+
+div {
+  outline: 2px solid black;
+  height: 100px;
+}
